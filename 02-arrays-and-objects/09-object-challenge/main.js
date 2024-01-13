@@ -1,22 +1,22 @@
 const thuVien = [
   {
-    tieuDe: 'The Road Ahead',
-    tacGia: 'Bill Gates',
+    tieuDe: "The Road Ahead",
+    tacGia: "Bill Gates",
     tinhTrang: { soHuu: true, dangDoc: false, daDoc: false },
   },
   {
-    tieuDe: 'Steve Jobs',
-    tacGia: 'Walter Isaacson',
+    tieuDe: "Steve Jobs",
+    tacGia: "Walter Isaacson",
     tinhTrang: { soHuu: true, dangDoc: false, daDoc: false },
   },
   {
-    tieuDe: 'Mockingjay',
-    tacGia: 'Suzanne Collins',
+    tieuDe: "Mockingjay",
+    tacGia: "Suzanne Collins",
     tinhTrang: { soHuu: true, dangDoc: false, daDoc: false },
   },
 ];
 
-thuVien.forEach(sach => (sach.tinhTrang.daDoc = true));
+thuVien.forEach((sach) => (sach.tinhTrang.daDoc = true));
 
 const { tieuDe: sachDauTien } = thuVien[0];
 
